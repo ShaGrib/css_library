@@ -1,0 +1,117 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* various types of buttons */
+.btn{
+    margin-right: 5px;
+    width: 100px;
+    padding: 3px;
+    background-color:cyan;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 3px 3px black;
+}
+
+#rounded{
+    margin-top: 1cm;
+    margin-left: 2cm;
+    background-color: white;
+    border-color:cyan;
+    color:darkcyan;
+    font-size: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#plus{
+    margin-top: 0.5cm;
+    margin-left: 2cm;
+    background-color:rgb(101, 223, 182);
+    border-color:rgb(101, 223, 182);
+    color:white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+}
+
+#oval{
+    margin-top: 0.5cm;
+    margin-left: 2cm;
+    background-color: dodgerblue;
+    border-color: black;
+    width: 180px;
+    height: 40px;
+    color: white;
+    box-shadow: 5px 5px black;
+    font-size: large;
+}
+
+/* rows and columns */
+.row{
+    display: flex;
+    background-color: red;
+}
+
+.col{
+    flex: 4;
+    background-color: cyan;
+}
+
+.col-2{
+    flex: 3;
+    background-color: green;
+}
+
+.col-3{
+    flex: 5;
+    background-color: pink;
+}
+
+/* various nav elements */
+
+.nav{
+    display: flex;
+    justify-content:right;
+    block-size: auto;
+    max-width: 100%;
+    min-height: fit-content;
+    background-color: gray;
+    align-items: center;
+}
+
+.nav-title{
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+/* flexing */
+
+.flexed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
